@@ -1,17 +1,12 @@
-<?php include ('begin_page.php'); ?>
+<?php require ('begin_page.php'); ?>
 
-<?php include ('header.php'); ?>
+<?php require ('header.php'); ?>
 
-<?php include ('nav.php'); ?>
+<?php require ('nav.php'); ?>
 
+<?php require ('cards.php'); ?>
+<?php require ('articles.php'); ?>
 
-<?php include ('cards.php'); ?>
-<?php include ('articles.php'); ?>
+<?php require ('footer.php'); ?>
 
-
-
-
-
-<?php include ('footer.php'); ?>
-
-<?php include ('end_page.php'); ?>
+<?php require ('end_page.php'); ?>
