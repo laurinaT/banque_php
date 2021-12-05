@@ -12,7 +12,7 @@
                             <p class="card-text">Solde :</p>
                             <h6 class="card-text">198,53 €</h6>
                             <div class="text-center">
-                                <a href="#" class="btn btn-outline-danger">Réaliser une opération</a>
+                                <a href="#" class="btn btn-pink">Réaliser une opération</a>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                             <p class="card-text">Solde :</p>
                             <h6 class="card-text">100 250 €</h6>
                             <div class="text-center">
-                                <a href="#" class="btn btn-outline-danger">Réaliser une opération</a>
+                                <a href="#" class="btn btn-pink">Réaliser une opération</a>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                             <p class="card-text">Solde :</p>
                             <h6 class="card-text">198,53 €</h6>
                             <div class="text-center">
-                                <a href="#" class="btn btn-outline-danger">Réaliser une opération</a>
+                                <a href="#" class="btn btn-pink">Réaliser une opération</a>
                             </div>
                         </div>
                     </div>

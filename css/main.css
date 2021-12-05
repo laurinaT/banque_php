@@ -92,9 +92,10 @@ textarea {
 .bg-pink {
     --bs-bg-opacity: 1;
     background-color: var(--pink) !important;
+	color: #fff;
 }
 .border-pink{
-border: solid 5px var(--pink);
+border: solid 2px var(--pink);
 }
 
 /* ------------------------------ buttons ----------- */

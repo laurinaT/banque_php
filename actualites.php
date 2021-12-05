@@ -4,19 +4,19 @@
 
 <?php include ('nav.php'); ?>  
 
-<div id="cards" class="container-main lg-col-9">
+	<div id="cards" class="container-main lg-col-9">
 
+		<div id="Articles" class="text-center">
+			<h1>Nos actualités</h1>
+			<div id="comptes" class="row">
+			
+			</div>
+		</div>
 
-    
-    <div id="Articles">
-      <h1>Nos actualités</h1>
-      <div id="comptes" class="row">
-        
-      </div>
-    </div>
-
-  </div>
+	</div>
 
 <?php include ('footer.php'); ?>
+
+<script src="js/actualites.js"></script>
 
 <?php include ('end_page.php'); ?>

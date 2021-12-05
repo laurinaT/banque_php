@@ -12,4 +12,6 @@
 
 <?php include ('footer.php'); ?>
 
+<script src="js/statistiques.js"></script>
+
 <?php include ('end_page.php'); ?>
