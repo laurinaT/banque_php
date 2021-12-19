@@ -1,8 +1,17 @@
-<?php include ('begin_page.php'); ?>
+<?php 
+	session_start();
 
-<?php include ('header.php'); ?>
+    if(!isset($_SESSION["userName"])) {
+        header("Location:form_connexion.php");
+        exit;
+    }
 
-<?php include ('nav.php'); ?>  
+	include ('begin_page.php');
+
+	include ('header.php');
+
+	include ('nav.php');
+?>  
 
 	<div id="cards" class="container-main lg-col-9">
 
