@@ -4,7 +4,7 @@
 		require ('begin_page.php');
 		require ('header.php');
 		require ('nav.php');
-		echo $_SESSION['userName'];
+		echo '<h1>Bonjour ' . $_SESSION['userName'] . "!!! Et bienvenue sur votre espace personnel !</h1>";
 		require ('cards.php');
 		require ('articles.php');
 		require ('footer.php');

@@ -21,6 +21,7 @@ CREATE TABLE Account(
     id INT NOT NULL AUTO_INCREMENT,
     account_name VARCHAR(40) NOT NULL,
     account_number VARCHAR(40) NOT NULL,
+	account_amount VARCHAR(40),
     account_user_id INT NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (account_user_id) REFERENCES User(id)
@@ -61,16 +62,18 @@ Values
     '2018-12-14'
 );
 
-INSERT INTO Account(account_name, account_number, account_user_id)
+INSERT INTO Account(account_name, account_number, account_amount, account_user_id)
 Values  (
     'courant',
     '25421278',
+	'658.56',
     1
 ),
 (
     
     'PEL',
     '56789009',
+	'2999.98',
     2
 );
 
